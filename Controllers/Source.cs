@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace Source.Controllers
 {
@@ -19,7 +20,9 @@ namespace Source.Controllers
         public IActionResult Get()
         {
             // Obtener la dirección IP del cliente
-            var ipAddress = HttpContext.Connection.RemoteIpAddress;
+            var forwardedForHeader = HttpContext.Request.Headers["X-Forwarded-For"];
+            var ipAddress = string.IsNullOrEmpty(forwardedForHeader) ? HttpContext.Connection.RemoteIpAddress : IPAddress.Parse(forwardedForHeader);
+           // var ipAddress = HttpContext.Connection.RemoteIpAddress;
 
             // Verificar si la dirección IP es IPv4 o IPv6
             if (ipAddress != null)
