@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "2I0/FHrQ8+yFB7/w7mFiTZ9EFrPU3/7Ntvc8LpPo2PM=",
+  "Source": "Source",
+  "BasePath": "_content/Source",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Source\\wwwroot",
+      "Source": "Source",
+      "ContentRoot": "C:\\Users\\sergio\\Desktop\\dotnet\\Source\\wwwroot\\",
+      "BasePath": "_content/Source",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sergio\\Desktop\\dotnet\\Source\\wwwroot\\htmlpage.html",
+      "SourceId": "Source",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sergio\\Desktop\\dotnet\\Source\\wwwroot\\",
+      "BasePath": "_content/Source",
+      "RelativePath": "htmlpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\htmlpage.html"
+    },
+    {
+      "Identity": "C:\\Users\\sergio\\Desktop\\dotnet\\Source\\wwwroot\\img\\foto.jpg",
+      "SourceId": "Source",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sergio\\Desktop\\dotnet\\Source\\wwwroot\\",
+      "BasePath": "_content/Source",
+      "RelativePath": "img/foto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\foto.jpg"
+    }
+  ]
+}

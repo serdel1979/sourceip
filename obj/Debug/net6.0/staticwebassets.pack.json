@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sergio\\Desktop\\dotnet\\Source\\wwwroot\\htmlpage.html",
+      "PackagePath": "staticwebassets\\htmlpage.html"
+    },
+    {
+      "Id": "C:\\Users\\sergio\\Desktop\\dotnet\\Source\\wwwroot\\img\\foto.jpg",
+      "PackagePath": "staticwebassets\\img\\foto.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Source.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Source.props",
+      "PackagePath": "build\\Source.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Source.props",
+      "PackagePath": "buildMultiTargeting\\Source.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Source.props",
+      "PackagePath": "buildTransitive\\Source.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
